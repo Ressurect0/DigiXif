@@ -1,2 +1,26 @@
 # Digital Signatures in Images
 Digitally Signing Images using RSA 2048 and Embedding Signatures within the Exif Metadata of the Image.
+
+Pre-requisites
+--------------
+sudo apt-get install python
+sudo apt-get install python-setuptools python-dev build-essential
+sudo apt-get install python-pip
+pip install piexif
+chmod 777 openssl.sh
+chmod 777 verify_ds.sh
+
+Running
+-------
+python digital_signed_image.py
+
+Verifying Signatures 
+--------------------
+openssl dgst -sha256 -verify public.pem -signature signature_duplicate.bin image.jpeg
+or 
+./verify_ds.sh
+
+Pending Modifications
+---------------------
+Adding Public certificate in another Exif Metadata Tag.
+
