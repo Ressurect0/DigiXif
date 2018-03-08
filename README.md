@@ -26,7 +26,7 @@ or
 
 Pending Modifications
 ---------------------
-Adding Public certificate in another Exif Metadata Tag.  
+* Adding Public certificate in another Exif Metadata Tag.  
  
 
 
