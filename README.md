@@ -12,7 +12,9 @@ chmod 777 verify_ds.sh
 
 Running
 -------
-python digital_signed_image.py
+python digital_signed_image.py  
+
+![alt text](https://github.com/SanjeetSR/DigiXif/blob/master/images/screen_1.png) 
 
 Verifying Signatures 
 --------------------
@@ -20,10 +22,11 @@ openssl dgst -sha256 -verify public.pem -signature signature_duplicate.bin image
 or   
 ./verify_ds.sh
 
+![alt text](https://github.com/SanjeetSR/DigiXif/blob/master/images/screen_2.png)  
+
 Pending Modifications
 ---------------------
 Adding Public certificate in another Exif Metadata Tag.  
+ 
 
-![alt text](https://github.com/SanjeetSR/DigiXif/blob/master/images/screen_1.png)  
 
-![alt text](https://github.com/SanjeetSR/DigiXif/blob/master/images/screen_2.png)  
