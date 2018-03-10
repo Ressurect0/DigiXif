@@ -1,5 +1,4 @@
-<img src="https://github.com/SanjeetSR/DigiXif/blob/master/images/text4033.png" margin="0" align="left" height="36px" width="110px"/>
-<p>Digitally Signing Images using RSA 2048 and Embedding Signatures within the Exif Metadata of the Image.<p/>
+<img src="https://github.com/SanjeetSR/DigiXif/blob/master/images/text4033.png" margin="0px" height="36px" width="110px"/>Digitally Signing Images using RSA 2048 and Embedding Signatures within the Exif Metadata of the Image.
 
 Pre-requisites
 --------------
